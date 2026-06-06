@@ -22,7 +22,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/YOUR_USERNAME/video-subtitle-generator.git
+git clone https://github.com/cffgdhtrxf/video-subtitle-generator.git
 cd video-subtitle-generator
 
 # 安装依赖
