@@ -1,0 +1,17 @@
+# WhisperX + pyannote.audio 字幕生成脚本依赖
+# 安装: pip install -r requirements.txt
+
+# 核心
+whisperx>=3.1.0
+
+# 说话人分离 (可选，需要 HuggingFace token)
+pyannote.audio>=3.1.0
+
+# 音频处理
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# 注意: ffmpeg 需要单独安装
+#   Windows: winget install ffmpeg  或  从 https://ffmpeg.org/download.html 下载
+#   macOS: brew install ffmpeg
+#   Linux: sudo apt install ffmpeg

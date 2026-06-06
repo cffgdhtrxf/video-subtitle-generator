@@ -1,0 +1,24 @@
+.hf_token
+__pycache__/
+*.pyc
+*.srt
+*.wav
+temp_audio.wav
+
+# 视频文件（体积太大，不应该提交）
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+*.webm
+*.m4v
+
+# 虚拟环境
+venv/
+venv.bak/
+
+# 系统文件
+Thumbs.db
+.DS_Store
